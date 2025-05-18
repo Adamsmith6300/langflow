@@ -21,7 +21,7 @@ jobs:
         uses: adamsmith6300/alder-gha@v1.0.6
         with:
           api-key: ${{ secrets.ALDER_API_KEY }}
-          extra-ignore-dirs: '.github,.devcontainer,docs,deploy,docker,docker_example,scripts,test-results,.vscode'
+          extra-ignore-dirs: 'frontend,.github,.devcontainer,docs,deploy,docker,docker_example,scripts,test-results,.vscode'
           # create-issues: true
           # github-token: ${{ secrets.GITHUB_TOKEN }}
           # github-repository: ${{ github.repository }}
